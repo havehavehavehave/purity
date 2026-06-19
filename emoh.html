@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background: white;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
+
+.triangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.row {
+    display: flex;
+    gap: 8px;
+}
+
+
+.row a img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+
+.hidden-text {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    font-size: 12px;
+    color: black;          
+    user-select: text;
+}
+
+.hidden-text::selection {
+    background: white;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="triangle">
+
+    <div class="row">
+        <a href="visage.html">
+            <img src="image.png">
+        </a>
+    </div>
+
+    <div class="row">
+        <a href="google.com">
+            <img src="https://64.media.tumblr.com/a7974dfed9a70ce9183e67fd94a99654/e894ea60563eabb0-9d/s540x810/01612c61c678dfbbceb7db0c0dfda4d999dea31e.png">
+        </a>
+        <a href="google.com">
+            <img src="https://64.media.tumblr.com/a7974dfed9a70ce9183e67fd94a99654/e894ea60563eabb0-9d/s540x810/01612c61c678dfbbceb7db0c0dfda4d999dea31e.png">
+        </a>
+    </div>
+
+
+    <div class="row">
+        <a href="google.com">
+            <img src="https://64.media.tumblr.com/a7974dfed9a70ce9183e67fd94a99654/e894ea60563eabb0-9d/s540x810/01612c61c678dfbbceb7db0c0dfda4d999dea31e.png">
+        </a>
+        <a href="google.com">
+            <img src="https://64.media.tumblr.com/a7974dfed9a70ce9183e67fd94a99654/e894ea60563eabb0-9d/s540x810/01612c61c678dfbbceb7db0c0dfda4d999dea31e.png">
+        </a>
+        <a href="google.com">
+            <img src="https://64.media.tumblr.com/a7974dfed9a70ce9183e67fd94a99654/e894ea60563eabb0-9d/s540x810/01612c61c678dfbbceb7db0c0dfda4d999dea31e.png">
+        </a>
+    </div>
+
+</div>
+
+<div class="hidden-text">
+i'm not supposed to be here
+</div>
+
+</body>
+</html>
